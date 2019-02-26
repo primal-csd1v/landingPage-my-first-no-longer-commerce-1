@@ -1,0 +1,8 @@
+<Files ~ "\.ini$">
+ Order allow,deny
+ Deny from all
+</Files>
+
+
+php_value session.gc_maxlifetime 60
+php_value session.cookie_lifetime 0
